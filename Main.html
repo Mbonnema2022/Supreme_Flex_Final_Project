@@ -8,6 +8,137 @@
     <!--  FONTS -->
 
     <!-- CSS -->
+    :root {
+    --red: #f6003c;
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #feda77;
+    --green: #1f640a;
+    --light grey: #f4f0e6;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background: var(--light grey);
+    color: var(--gold);
+    font-family: 'Roboto','Montserrat',sans-serif;
+    margin: 0;
+        
+  }
+
+  .navigation{
+    background: var(--white);
+    color: var(--black);
+    font-family: 'Roboto',monospace;
+  }
+
+
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  ..btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--black);
+    background-color: var(--red;
+  }
+  
+     
+     
+     
+     
+     .column {
+       float: left;
+       width: 33.3%;
+       margin-bottom: 16px;
+       padding: 0 8px;
+     }
+     
+     .card {
+       box-shadow: 0 4px 8px 0 var(--red;
+       margin: 8px;
+     }
+     
+     .about-section {
+       padding: 50px;
+       text-align: center;
+       background-color: var(--red);
+       color: #060608;
+     }
+     
+     .container {
+       padding: 0 16px;
+     }
+     
+     .container::after, .row::after {
+       content: "";
+       clear: both;
+       display: table;
+     }
+     
+     .title {
+       color: grey;
+     }
+     
+     .button {
+       border: none;
+       outline: 0;
+       display: inline-block;
+       padding: 8px;
+       color: #eec60a;
+       background-color: #000;
+       text-align: center;
+       cursor: pointer;
+       width: 100%;
+     }
+     
+     .button:hover {
+       background-color: #555;
+     }
+     
+     @media screen and (max-width: 650px) {
+       .column {
+         width: 100%;
+         display: block;
+       }
+    }
+ 
+  .light-theme {
+    --bg: var(--white);
+    --fontColor: var(--gold);
+    --btnBg: var(--black);
+    --btnFontColor: var(--red);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--red);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+
+.footer{
+    background: var(--white);
+    color: var(--black);
+    font-family: monospace;
+
+}
+    
 
     <title><!-- Title --></title>
   </head>
@@ -23,73 +154,624 @@
 
       <section>
         <!-- About -->
-      </head>
-      <body>
-        <main>
-          <section class="heading">
-            <header class="hero">
-              <img
-                src="https://i.postimg.cc/Z4PgZkGc/image003.gif"
-                alt="mad area traffic light"
-                loading="lazy"
-                class="trafficlight-img"
-                width="100"
-              />
-              <h1 class="title">Our Mission Statement</h1>
-            </header>
-            <div class="author">
-              <p class="author-name">
-                By
-                <a href="" target="_blank" rel="noreferrer"
-                  >MBonnema</a
-                >
-              </p>
-              <p class="publish-date">November 5, 2022</p>
-            </div>
-              <p class="subtitle">
-                Mad Area driving school uses years of experience 
-    and innovation to educate students and families in 
-    order to save lives and reduce injuries through 
-    organized curriculum, family involvement, 
-    and professional instruction. Our mission is to provide
-     each student with the necessary information and 
-    techniques to be a SAFE RESPONSIBLE DRIVER. 
-    To provide a learning friendly environment that meets
-     the needs of each student’s learning style. 
-    To recognize and understand each student’s strengths 
-    and weaknesses. To provide each student with the
-     proper training so they can obtain an Indiana driver’s license.
-     To provide the motoring public with <strong>SAFE RESPONSIBLE DRIVERS</strong>.
-              </p>
-           
-    <section class="text">
-      <div class="header-inner">
-        <h1></h1>
-            <p class="second-paragraph">
-              <title>Our Story</title>
-              Mad Area Driving School is a well-renowned driving school which is located in Madison. The school has both DPI and DOT certified driving instructors. You can use their licensed and insured vehicle for the road skills test. They start with the basics and move through the more complex aspects of operating a motor vehicle. More advanced sessions will teach you techniques on emergency avoidance and how to prevent potential conflicts. They offer pickup and drop-off at home or work after behind-the-wheel training. Customers can get 30 hours of online classroom instruction and behind-the-wheel training at Mad Area Driving School for $570 only
-            </p>
-            <img src="https://i.postimg.cc/nHWSTnmH/bob-1.jpg" alt="bob" width="200" height="300">
-            <img src="https://i.postimg.cc/wzSbmTH2/thumbs-up.jpg" alt="bob" width="200" height="300">
-            <img src="https://i.postimg.cc/NgFP1K5J/classroom.jpg" alt="classroom" width="200" height="400">
-             <img src="https://i.postimg.cc/09cBMY2K/IMG-3496bfree.webp"  alt="Behind the Wheel" width="300" height="400"> 
-          </ol>
-            <address>
-    <a href="mailto: madareadriving@gmail.com"></a>.
-             <br>
-                <blockquote>
-    Visit us at:<br>
-    https://www.madareadriving.com/<br>
-    913 Lorena Pkwy, Madison, WI 53713<br>
-    USA
-    </address>
-          
-              <hr>
-                <p class="email" Alternate email is ><a href="mailto:jkapinus@madareadriving.com"</a>
-              
-            </blockquote> 
-        </section>
+        !DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+
+
+
+    <title>Mad Area driving school</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="main.css"/>
+  
+  </head>
+  <style>
+    body {
+      background-color: black;
+      font-family: cursive;
+      color: white;
+    }
+    
+    .glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+         
+    
+  <body>
+    <div class="about-section">
+      
+    <main>
+      <section class="header">
+      <header class="hero">
+          <img
+            src="https://i.postimg.cc/Z4PgZkGc/image003.gif"
+            alt="mad area traffic light"
+            loading="lazy"
+            class="trafficlight-img"
+            width="100"
+          />
+          <h1 class="glow">Our Mission Statement</h1>
+        </header>
         
+         
+        </div>
+          <p class="subtitle">
+            Mad Area driving school uses years of experience 
+and innovation to educate students and families alike in 
+order to save lives and reduce injuries through 
+organized curriculum, family involvement, 
+and professional instruction. Our mission is to provide
+ each student with the necessary information and 
+techniques to be a SAFE RESPONSIBLE DRIVER. 
+To provide a learning friendly environment that meets
+ the needs of each student’s learning style. 
+To recognize and understand each student’s strengths 
+and weaknesses. To provide each student with the
+ proper training so they can obtain an Indiana driver’s license.
+ To provide the motoring public with <strong>SAFE RESPONSIBLE DRIVERS</strong>.
+          </p>
+       
+<section class="text">
+  <div class="header-inner">
+    <h1></h1>
+        <p class="second-paragraph">
+          <title>Our Story</title>
+         
+        <h2> Mad Area Driving School is a well-renowned driving school which is conveniently located in Madison,Wi.</h2>
+<p>The school has both DPI an d DOT certified driving instructors. You can use their licensed and insured vehicle for the road skills test. They start with the basics and move through the more complex aspects of operating a motor vehicle. More advanced sessions will teach you techniques on emergency avoidance and how to prevent potential conflicts. They offer pickup and drop-off at home or work after behind-the-wheel training. Customers can get 30 hours of online classroom instruction and behind-the-wheel training at Mad Area Driving School <em>for only $570</em>!
+</p>
+<br>
+<!-- ======= who are we  Section ======= -->
+<section id="current" class="who are we-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h3 class="glow">Introducing</h3>
+    </div>
+    
+    <div class="introductions-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+    <h2>We are Mad Area driving school</h2>
+<p>Just a small peek at what a driving school looks like:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="https://i.postimg.cc/nHWSTnmH/bob-1.jpg" alt="bob" width="150" height="200">
+      <p>Bob Smith:Driving Instructor</p>
+      <p>The duties and responsibilities of Bob Smith are to manage the theory class timings, teach the driving students about the right traffic rules and inform student drivers with safety driving procedures. In addition to that, he will supply their students with information about emergency situations.</p>
+    </div>
+  <div class="column">
+    <img src="https://i.postimg.cc/NgFP1K5J/classroom.jpg" alt="classroom" width="150" height="200">
+    <p>Shiela Ross:Classroom Instructor</p>
+    <p>Shiela Ross is certified to instruct students on skills related to operating vehicles, including driving safety. These formal lessons will prepare students for their first driver's license or can be for specializations for other types of vehicles like trucks, limousines, busses and motorcycles</p>
+  </div>  
+  <div class="column">
+    <img src="https://i.postimg.cc/wzSbmTH2/thumbs-up.jpg" alt="bob" width="150" height="200">
+     <p>Samantha Doe:Recent Graduate</p>
+     <p>Helpful class structure. “Behind-the-wheel” training was helpful in gradually exposing you to the roads and the traffic that comes with them. Instructors are kind and easily approachable when students have questions.</p>
+  </div> 
+  <div class="column">
+      <img src="https://i.postimg.cc/09cBMY2K/IMG-3496bfree.webp"  alt="Behind the Wheel" width="150" height="200"> 
+      <p>Jim Roe:Current Student</p>
+      <p>This is the best Driving School I’ve ever been to I love it the instructors they’re very patient. Professional understanding and help me gain my confidence of driving</p>
+ 
+    </div>
+    
+
+
+<address>
+<a href="mailto: madareadriving@gmail.com"></a>
+ <br>
+    <blockquote>
+Visit us at:<br>
+https://www.madareadriving.com/<br>
+913 Lorena Pkwy, Madison, WI 53713<br>
+USA
+</address>
+
+  <hr>
+    <p class="email" Alternate email is ><a href="mailto:jkapinus@madareadriving.com"</a>
+  
+</blockquote> 
+</section>
+</about-section>
+<div class="container">
+  </body>
+      </section>
+</main>
+</body>
+</html>
+  
+  <!--Letter to the Parents page-->
+  
+  <!DOCTYPE HTML>
+
+<html>
+    <head>
+        <html lang="en">
+            <head>
+              <meta charset="UTF-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <link rel="stylesheet" href="main.css">
+                
+              
+              <title>Letter to Parents</title>
+    </head>
+
+    <body class="letter">
+        <title>Letter to the Parents</title>
+    
+    </address>
+        <div class="divReturnAddress">
+            913 Lorena Pkwy<br/>
+            Madison, WI 53713 <br/>
+            USA <br/>    
+            <br/>
+           November 5,2022
+        </div>
+
+        <div class="divSubject">
+            Welcome to Mad Area driving school
+        </div>
+
+        <div class="container">
+            <p>
+                Dear Parents,
+            </p>
+
+            <p>
+                On behalf of the staff at Mad Area Driving School, I am happy to welcome you to the 2022-23 school
+                year! We are looking forward to a productive partnership with you to ensure our children can
+                achieve their highest potential. We recognize that in order to be successful in school, our
+                children need support from both the home and school. We know a strong partnership with you
+                will make a great difference in your child’s education. As partners, we share the responsibility
+                for our children’s success and want you to know that we will do our very best to carry out our
+                responsibilities. We ask that you guide and support your child’s learning by ensuring that
+                he/she:
+            </p>
+            <ol>
+            <li>Attends school when scheduled and arrives on time, ready for the day’s learning experience</li>
+            <li>Completes all assignments given by instructors in Behind the Wheel</li>
+            <li>Give students time to practice at home as well in class.</li>
+            <li>Shares school experiences with you so that you are aware of his/her school life</li>
+            <li>Informs you if he/she needs additional support</li>
+            <li>Celebrate the small wins as well as the final drivers license</li>
+        </ol>
+            <p>Please consider joining our school volunteer program as our students can greatly benefit from
+                your involvement and contributions to the school’s program and its operations. We seek
+                volunteers to help us with the following activities:</p>
+                <ol>
+
+<li>Teacher-led instructional support, online /hybrid</li>
+                    <li>Helping children who need extra help with prep for permit test</li>
+                    <li>School-wide events</li>
+                    <li>Student recognition events</li>
+                    <li>Outreach and recruitment of parent and community volunteers</li>
+
+                </ol>
+<p>I am attaching a copy of our school rules and pickup information so that you and your child can review them together. If
+    you have any questions about the rules and expectations, please feel free to contact me or to
+    discuss them with your child’s teacher. It is very important that you and your child are fully
+    informed regarding standards related to appropriate behavior for a safe and productive school
+    year. Please feel free to review the School pickup information and other required information with can be accessed at 
+    <a href=<a href="rules.html">Go to Rules!</a>.</p>
+    <p>The wonderful Mad Area driving school staff and I feel privileged to be a part of this school family. We thank
+        you for your support and look forward to meeting you.</p>
+                
+
+        <div class="signature">
+            <br/>
+            <!-- Space for signature. -->
+            <br/>
+            <br/>
+            <br/>
+           <h1> Sincerely,</h1>
+            
+<br/>
+James N. Kapinus
+Owner
+
+<br/>
+        </div>
+    </body>
+</html>
+
+<!--Rules & Regulations section (linked into the letter-->
+  
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+h1 {
+  text-align: center;
+}
+
+p.date {
+  text-align: right;
+}
+
+p.main {
+  text-align: justify;
+}
+</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What you need to know about Mad Area</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  />
+  <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <nav>
+      <!-- Navbar -->
+    </nav>
+    <header>
+      <!-- Header -->
+
+    </header>
+    <main>
+      <!-- Main -->
+      <h1 class="glow">Rules & Regulations</h1>
+      
+      <p class="date">May, 2022</p>
+  <hr>
+  <p>Note:Please read with your student</p>
+   <p class="main">This letter is to inform you of the plans for this school years Behind-the-Wheel training sessions.</p>
+   <p>Your teen will have six two-hour sessions of behind the wheel with the instructor. The pick-up locations for the
+    in-car sessions will depend on the day the session is scheduled. If school is in session (a scheduled school
+    day), we will pick your teen up at the designated location noted below</p>
+   
+    <p><b>Note:VERONA PICKUP<br><mark>in front of the KWIK TRIP gas station Verona 233 Wildcat Way</mark><br>
+      <p> MEMORIAL PICKUP</p>at the<mark><em>the Memorial Min. Pt. Rd. exit (nearest the nurse’s office.)</em></mark><br>
+      <p>On Saturdays, Sundays, or days when school is not in session, unless informed otherwise by Jim of
+          Mad-Area</p>, we will pick your teen up and drop them off two hours later front of the KWIK TRIP gas station in Verona 233 Wildcat Way. 
+      </p>
+    </div>
+      <h1 class="glow">Behavior Policy</h1>
+    
+      <article>In Wisconsin, students are granted a permit at 15, and a probationary license at 16 years of age. At these
+          ages, the State feels, students should understand the responsibilities associated with the privilege of driving.
+          Therefore, we will dismiss any student from our program for repetitive disruptive behavior.
+          • The first incident of disruptive in class, or in car behavior, will be handled by a discussion of the event
+          with parents
+          • If a second disruptive behavior incident occurs, the student will be dismissed from class without a
+          refund and will not be allowed to return for six months.
+          We expect classroom and in car instruction to be a good learning environment for all students, which is why
+          we must adhere to a strict policy to promote this atmosphere.
+          Each student is teamed with another, therefore if your teen does not keep his/her appointment the instructor
+          and your teens driving partner will be greatly inconvenienced. To help eliminate any unnecessary last minute
+          appointment changes or misses, $30.00 will be charged for each missed or unexcused appointment. If
+          an appointment is missed the $30.00 fee must be paid at the student’s next lesson. Any changes in scheduled
+          appointments will not be considered unless made at least 48 hours in advance to fill the requested
+          appointment change.
+          For driver education to have a lasting impact, it has to affect the behavior and attitude of the novice driver
+          well beyond the duration of this course. That can only happen when students, parents and instructors
+          combine their efforts and become partners to make driving safety a priority. As driver education instructors,
+          my staff and I are trained to provide the foundation of safe driving. As the driver education parent or guardian,
+          you play a key role in guiding your teenager through additional practice so he/she will become a good,
+          responsible and safe driver.</article>
+        </div>
+          <h1 class="glow">CDC guidelines</h1>
+
+          <p><mark>We recognize that in order to be successful in school, your child needs support from both home and school. </mark><br>We know a strong partnership with you is vital for flexibility; this global pandemic present challenges that change on a daily basis. As partners, our shared responsibility for your child's safety and success will be guided by the following.</p>
+<ul>
+  <li>Strict adherence to CDC guidelines and safety protocols therefore more than two thirds of our students will remain on remote instruction.</li>
+  <li>Non-employees will not be allowed in the school</li>
+  <li>No student or employee can enter the school if exhibiting COVID symptoms</li>
+  <li>No student or employee can enter the building without a mask</li>
+  <li>Students and employees must provide their own masks and water</li>
+  <li>Students and staff will have specific entrances that they must enter the building after being screened</li>
+  </ul>
+
+  <p class="glow">Hours</p>
+    The Mad Area staff and I feel privileged to be a part of this school family. We thank you for your support and look forward to serving you in the 2022-2023  year!</p>
+          <P>You are encouraged to call Jim at 345-9598, between 8:00am-10:00am or 4pm-5:30pm Monday-Friday
+              to schedule driving appointments or talk about any concerns relating to your teens driving experience. </P>
+</body>
+
+    </main>
+    <footer>
+      <!-- Footer -->
+    </footer>
+  </body>
+</html>
+
+  
+
+  
+   
+     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+     
+    
+
+  
+     
+  
+  
+  
+
+  
+
+
+        
+        
+         
+      
+      <link rel="stylesheet" href="main.css">
+                
+              
+              <title>Letter to Parents</title>
+    </head>
+
+    <body class="letter">
+        <title>Letter to the Parents</title>
+    
+    </address>
+        <div class="divReturnAddress">
+            913 Lorena Pkwy<br/>
+            Madison, WI 53713 <br/>
+            USA <br/>    
+            <br/>
+           November 5,2022
+        </div>
+
+        <div class="divSubject">
+            Welcome to Mad Area driving school
+        </div>
+
+        <div class="container">
+            <p>
+                Dear Parents,
+            </p>
+
+            <p>
+                On behalf of the staff at Mad Area Driving School, I am happy to welcome you to the 2022-23 school
+                year! We are looking forward to a productive partnership with you to ensure our children can
+                achieve their highest potential. We recognize that in order to be successful in school, our
+                children need support from both the home and school. We know a strong partnership with you
+                will make a great difference in your child’s education. As partners, we share the responsibility
+                for our children’s success and want you to know that we will do our very best to carry out our
+                responsibilities. We ask that you guide and support your child’s learning by ensuring that
+                he/she:
+            </p>
+            <ol>
+            <li>Attends school when scheduled and arrives on time, ready for the day’s learning experience</li>
+            <li>Completes all assignments given by instructors in Behind the Wheel</li>
+            <li>Give students time to practice at home as well in class.</li>
+            <li>Shares school experiences with you so that you are aware of his/her school life</li>
+            <li>Informs you if he/she needs additional support</li>
+            <li>Celebrate the small wins as well as the final drivers license</li>
+        </ol>
+            <p>Please consider joining our school volunteer program as our students can greatly benefit from
+                your involvement and contributions to the school’s program and its operations. We seek
+                volunteers to help us with the following activities:</p>
+                <ol>
+
+<li>Teacher-led instructional support, online /hybrid</li>
+                    <li>Helping children who need extra help with prep for permit test</li>
+                    <li>School-wide events</li>
+                    <li>Student recognition events</li>
+                    <li>Outreach and recruitment of parent and community volunteers</li>
+
+                </ol>
+<p>I am attaching a copy of our school rules and pickup information so that you and your child can review them together. If
+    you have any questions about the rules and expectations, please feel free to contact me or to
+    discuss them with your child’s teacher. It is very important that you and your child are fully
+    informed regarding standards related to appropriate behavior for a safe and productive school
+    year. Please feel free to review the School pickup information and other required information with can be accessed at 
+    <a href=<a href="rules.html">Go to Rules!</a>.</p>
+    <p>The wonderful Mad Area driving school staff and I feel privileged to be a part of this school family. We thank
+        you for your support and look forward to meeting you.</p>
+                
+
+        <div class="signature">
+            <br/>
+            <!-- Space for signature. -->
+            <br/>
+            <br/>
+            <br/>
+           <h1> Sincerely,</h1>
+            
+<br/>
+James N. Kapinus
+Owner
+
+<br/>
+        </div>
+    <style>
+h1 {
+  text-align: center;
+}
+
+p.date {
+  text-align: right;
+}
+
+p.main {
+  text-align: justify;
+}
+</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What you need to know about Mad Area</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  />
+  <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <nav>
+      <!-- Navbar -->
+    </nav>
+    <header>
+      <!-- Header -->
+
+    </header>
+    <main>
+      <!-- Main -->
+      <!--Rules9link in letter
+      <h1 class="glow">Rules & Regulations</h1>
+      
+      <p class="date">May, 2022</p>
+  <hr>
+  <p>Note:Please read with your student</p>
+   <p class="main">This letter is to inform you of the plans for this school years Behind-the-Wheel training sessions.</p>
+   <p>Your teen will have six two-hour sessions of behind the wheel with the instructor. The pick-up locations for the
+    in-car sessions will depend on the day the session is scheduled. If school is in session (a scheduled school
+    day), we will pick your teen up at the designated location noted below</p>
+   
+    <p><b>Note:VERONA PICKUP<br><mark>in front of the KWIK TRIP gas station Verona 233 Wildcat Way</mark><br>
+      <p> MEMORIAL PICKUP</p>at the<mark><em>the Memorial Min. Pt. Rd. exit (nearest the nurse’s office.)</em></mark><br>
+      <p>On Saturdays, Sundays, or days when school is not in session, unless informed otherwise by Jim of
+          Mad-Area</p>, we will pick your teen up and drop them off two hours later front of the KWIK TRIP gas station in Verona 233 Wildcat Way. 
+      </p>
+    </div>
+      <h1 class="glow">Behavior Policy</h1>
+    
+      <article>In Wisconsin, students are granted a permit at 15, and a probationary license at 16 years of age. At these
+          ages, the State feels, students should understand the responsibilities associated with the privilege of driving.
+          Therefore, we will dismiss any student from our program for repetitive disruptive behavior.
+          • The first incident of disruptive in class, or in car behavior, will be handled by a discussion of the event
+          with parents
+          • If a second disruptive behavior incident occurs, the student will be dismissed from class without a
+          refund and will not be allowed to return for six months.
+          We expect classroom and in car instruction to be a good learning environment for all students, which is why
+          we must adhere to a strict policy to promote this atmosphere.
+          Each student is teamed with another, therefore if your teen does not keep his/her appointment the instructor
+          and your teens driving partner will be greatly inconvenienced. To help eliminate any unnecessary last minute
+          appointment changes or misses, $30.00 will be charged for each missed or unexcused appointment. If
+          an appointment is missed the $30.00 fee must be paid at the student’s next lesson. Any changes in scheduled
+          appointments will not be considered unless made at least 48 hours in advance to fill the requested
+          appointment change.
+          For driver education to have a lasting impact, it has to affect the behavior and attitude of the novice driver
+          well beyond the duration of this course. That can only happen when students, parents and instructors
+          combine their efforts and become partners to make driving safety a priority. As driver education instructors,
+          my staff and I are trained to provide the foundation of safe driving. As the driver education parent or guardian,
+          you play a key role in guiding your teenager through additional practice so he/she will become a good,
+          responsible and safe driver.</article>
+        </div>
+          <h1 class="glow">CDC guidelines</h1>
+
+          <p><mark>We recognize that in order to be successful in school, your child needs support from both home and school. </mark><br>We know a strong partnership with you is vital for flexibility; this global pandemic present challenges that change on a daily basis. As partners, our shared responsibility for your child's safety and success will be guided by the following.</p>
+<ul>
+  <li>Strict adherence to CDC guidelines and safety protocols therefore more than two thirds of our students will remain on remote instruction.</li>
+  <li>Non-employees will not be allowed in the school</li>
+  <li>No student or employee can enter the school if exhibiting COVID symptoms</li>
+  <li>No student or employee can enter the building without a mask</li>
+  <li>Students and employees must provide their own masks and water</li>
+  <li>Students and staff will have specific entrances that they must enter the building after being screened</li>
+  </ul>
+
+  <p class="glow">Hours</p>
+    The Mad Area staff and I feel privileged to be a part of this school family. We thank you for your support and look forward to serving you in the 2022-2023  year!</p>
+          <P>You are encouraged to call Jim at 345-9598, between 8:00am-10:00am or 4pm-5:30pm Monday-Friday
+              to schedule driving appointments or talk about any concerns relating to your teens driving experience. </P>
+</body>
+
+    </main>
+    
+    </body>
+</html>
+
+
+
+
+
+  
+   
+     
+   
+
+
+
+
+
+
+
+</section>
+</main>
+</body>
+</html>
+
+
+
+
+
+       
+     
+    
+
+  
+     
+  
+  
+  
+
+  
+
+
+        
+        
+         
+      
               
                
                  
