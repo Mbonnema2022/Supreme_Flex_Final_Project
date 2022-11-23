@@ -14,9 +14,9 @@ Black for details: #212F3D
 
 ### Primary text
 
-Family: Oxygen
-Weights: 300, 400, 700
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+Family: Roboto
+Weights: 300, 500, 700
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 color:  #212F3D
 
 ### Neutral
